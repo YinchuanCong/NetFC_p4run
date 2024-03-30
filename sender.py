@@ -23,7 +23,7 @@ class CalcH(Packet):
         ShortField('z',0),
         ShortField("protocol",0)
                    ]
-# 注意要把报文头对齐 !!!!
+
     
     
 
@@ -55,7 +55,7 @@ with open('darpa_processed_1.csv') as f:
 
 
 
-for i in range(100000):#100000
+for i in range(10):#100000
     pass 
     IP_src = '%i.%i.%i.%i'%(11,1,src[0]>>8,src[0]&0xf)
     IP_dst = '%i.%i.%i.%i'%(11,2,dst[0]>>8,dst[0]&0xf)

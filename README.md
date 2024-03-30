@@ -1,5 +1,6 @@
 # NetFC
-An unofficial implementation of NetFC(data plane float ploint operations +,-,*,/)  in BMV2 with $P4_16$.
+An unofficial implementation of NetFC(data plane float ploint operations +,-,*,/)  in BMV2 with $P4_{16}$.
+My simulation is based on '[p4run](https://github.com/nsg-ethz/p4-utils)' which is an improved version of mininet and p4c to easy P4 simulations.
 
 
 
@@ -7,10 +8,32 @@ An unofficial implementation of NetFC(data plane float ploint operations +,-,*,/
 Details reference to "[NetFC: Enabling Accurate Floating-point Arithmetic on Programmable Switches](https://arxiv.org/pdf/2106.05467)". 
 Code is based on [the official Repo](https://github.com/frankucas/NetFC.git). Many thanks to them. 
 
-There are may be some bugs. If there are, contact me. 
-If there is a license issue, please contact me, I will delete this repo.
 
-Lisence:
+## How to run
+The simulaiton topology: h1--s1--h2
+```
+  python run_XXX.py
+  mininet>
+```
+
+in another terminal:
+```
+python get_digest.py
+```
+return to the first terminal:
+```
+mininet> h1 python sender.py
+```
+This will start sending packets from h1 to h2 via s1. 
+  
+
+
+## Note
+There are may be some bugs because I am a bad programmer. If there are, contact me. 
+If there is a license issue, please contact me, I may delete this repo.
+
+## Lisence:
+
 MIT License
 
 Copyright (c) [year] [fullname]

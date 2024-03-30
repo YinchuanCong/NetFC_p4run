@@ -12,13 +12,13 @@ Code is based on [the official Repo](https://github.com/frankucas/NetFC.git). Ma
 ## How to run
 The simulaiton topology: h1--s1--h2
 ```
-  python run_XXX.py
+  sudo python run_XXX.py
   mininet>
 ```
 
 in another terminal:
 ```
-python get_digest.py
+sudo python get_digest.py
 ```
 return to the first terminal:
 ```

@@ -11,6 +11,8 @@ Code is based on [the official Repo](https://github.com/frankucas/NetFC.git). Ma
 
 ## How to run
 The simulaiton topology: h1--s1--h2
+
+start simulation:
 ```
   sudo python run_XXX.py
   mininet>
@@ -20,6 +22,8 @@ in another terminal:
 ```
 sudo python get_digest.py
 ```
+wait a minute and ready to get digest info(calcaulaiton operands and result) from s1.
+
 return to the first terminal:
 ```
 mininet> h1 python sender.py

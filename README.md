@@ -29,7 +29,7 @@ This will start sending packets from h1 to h2 via s1.
 
 
 ## Note
-There are may be some bugs because I am a bad programmer. If there are, contact me. 
+There may be some bugs because I am a bad programmer. If there are, contact me. 
 If there is a license issue, please contact me, I may delete this repo.
 
 ## Lisence:

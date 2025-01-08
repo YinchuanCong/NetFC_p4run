@@ -33,8 +33,8 @@ This will start sending packets from h1 to h2 via s1.
 
 
 ## Note
-There may be some bugs because I am a bad programmer. If there are, contact me. 
-If there is a license issue, please contact me, I may delete this repo.
+There may be some bugs since I am greenhand in P4. If there are, contact me. 
+If there is a copyright issue, please contact me, I may delete this repo.
 
 ## Lisence:
 
